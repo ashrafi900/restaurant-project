@@ -201,23 +201,28 @@ a{
     width: 100px;
     border: none;
     border-bottom: 3px solid orange;
-    margin-left: 100px; 
+    /* margin-left: 100px;  */
  }
  .part_two{
     display: flex;
  }
  .first_parts{
     height: 250px;
-    width: 320px;
+    width: 310px;
+    margin-left: 20px;
+
+   
 
  }
  .second_parts{
     height: 150px;
     width: 150px;
     
+    
  }
- .second{
+ .secound{
   display: flex;
+  margin-left: 20px;
  }
     
     
@@ -482,6 +487,7 @@ margin-left: 130px;
    font-style: italic;
    border: none;
    border-color: beige;
+   color: #161615;
 }
 .full_container{
    margin-top: 100px;
@@ -620,6 +626,12 @@ margin-left: 5px;
    background: url(./restaurant-.avif);
    background-repeat: no-repeat;
 } */
+.features_flex:hover .features_img{
+transform: scale(1.1);
+}
+
+  
+
 
 
 .our_menu{
@@ -815,7 +827,8 @@ margin-top: 40px;
    
 } 
 .instagram_div{
-   background-color: burlywood;
+   width: 100%;
+   
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -826,7 +839,7 @@ margin-top: 40px;
 .instagram_div h1{
    font-size: 50px;
    font-weight: 700px;
-   color: chocolate;
+   color: hsl(0, 81%, 53%);
    align-items: center;
    justify-content: center;
    
@@ -838,9 +851,9 @@ margin-top: 40px;
    
 }
 .hr{
-   border:  3px solid #1e00ff;
+   border:  2px solid hsl(329, 96%, 73%);
    width: 16%;
-   margin-left: 650px;
+   
 
 }
  .instagram{ 
@@ -890,9 +903,10 @@ font-size: 25px;
    align-items: center;
     gap: 40px; 
    justify-content: center;
-   background-color: hsl(0, 3%, 94%);
+   background-color: rgb(169, 11, 11);
    height: 50px;
    margin-top: 25px;
+   color: white;
    
 }
 .subscribe .subscribe2 p{
@@ -1029,7 +1043,7 @@ gap: 100px;
 .reach_us h1{
 font-size: 30px;
 color: maroon;
-margin-right: 320px;
+/* margin-right: 320px; */
 }
 .reach_icon{
    background-color: cornsilk;
@@ -1043,7 +1057,7 @@ margin-right: 320px;
     align-items: center;
     gap: 20px;
     font-size: 20px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     
 }
 .footer_location{
@@ -1061,13 +1075,18 @@ margin-right: 320px;
    font-size: 20px;
    color: #181616;
    
+   
 }
+/* .footer_phone .phone2{
+   margin-left: -50px;
+} */
+
 .footer_phone{
-   display: flex;
+   
    gap: 20px;
    width: 400px;
    margin-top: 30px;
-   margin-left: 100px;
+   /* margin-left: 100px; */
 }
 /* .footer_phone i{
    font-size: 30px;
@@ -1087,17 +1106,17 @@ margin-right: 320px;
 .footer_phone i{
    font-size: 20px;
    color: #161615;
-   margin-left: 100px;
+    margin-left: 100px;
    
 }
- .footer_phone span{ 
+ /* .footer_phone span{ 
     font-size: 20px;
    color: rgb(31, 31, 31);
-   margin-left: -240px; 
+   margin-left: -240px;  */
    
    
 
-}
+
 /* .fa-envelope-o:before {
    content: "\f003";
    margin-left: -550px;
@@ -1109,7 +1128,7 @@ margin-right: 320px;
    height: 100px;
    width: 100%;
    background-size: cover;
-   margin-top: -30px;
+   margin-top: -40px;
 }
 .footer_lastpart span{
    font-size: 20px;
@@ -1125,10 +1144,23 @@ margin-right: 320px;
    background-repeat: no-repeat;
    background-size: cover;
    height: 90px;
-   height: 100%;
+   height: 100%; 
    display: flex;
+   
 }
  .subscribe{
    height: 100%;
    width: 100%;
-} 
+}
+.discription{
+ 
+   padding: 30px;
+   font-size: 20px;
+
+}
+.reach_us{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
