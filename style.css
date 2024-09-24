@@ -5,7 +5,7 @@
 header{
     width: 100%;
     height: 100px;
-    background: hwb(0 8% 92%);
+    background: #000000bb;
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -73,10 +73,12 @@ a{
     justify-content: center;
  }
  .colour{
+   margin-top: 80px;
     color: hsl(0, 13%, 95%);
     font-size: 35px;
  }
  .colour h1{
+   margin-top: 50px;
     margin-left: 90px;
     font-weight: bold;
  }
@@ -421,7 +423,7 @@ margin-left: 130px;
    font-style: normal;
    text-align: center;
 }
-.reser{
+.reserv{
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -614,6 +616,12 @@ margin-left: 5px;
    gap: 40px;
    margin-left: 250px;
 }
+/* .back_bg{
+   background: url(./restaurant-.avif);
+   background-repeat: no-repeat;
+} */
+
+
 .our_menu{
    display: flex;
    flex-direction: column;
@@ -634,11 +642,13 @@ margin-left: 5px;
 .our_menu p{
    font-size: 21px;
 }
-.our_menu hr{
-   border: 2px solid orange;
-   width: 100px;
-   margin-top: 10px;
-}
+/* .our_menu hr{
+   
+    border: 2px dashed orange;
+   width: 100%;
+   margin-top: 15px;
+   margin-left: 10px;
+} */
 .our_menu_ul{
    margin-top: 40px;
    display: flex;
@@ -655,10 +665,16 @@ margin-left: 5px;
    display: flex;
    margin-top: 40px;
 }
-.our_menu_type h1{
-   border: 1px dashed black;
-
+ .our_menu_type hr {
+    width: 100px;
+   border: none;
+   border-bottom: 1px dashed black;
+   margin-left: 10px; 
 }
+
+   
+
+
 .our_menu_type p{
    font-size: 10px;
    color: aquamarine;
@@ -668,7 +684,7 @@ margin-left: 5px;
    gap: 30px;
    justify-content: center;
 }
-.expiore_menu_buttom{
+.explore_menu_button{
    font-size: 30px;
    color: white;
    background-color: maroon;
@@ -676,13 +692,443 @@ margin-left: 5px;
    justify-content: center;
    align-items: center;
    margin-top: 100px;
-   margin-left: 300px;
+   margin-left: 580px;
 }
+
+
 .trusted_by_div{
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
 }
+.trusted_by_div h1{
+   font-size: 50px;
+   color: #1d1e1b;
+   margin-top: 40px;
+   margin-left: 50px;
+
+}
+.trusted_by_div p{
+   font-size: 40px;
+   color: #191b1c;
+}
+.trusted_by_div hr{
+   border: 2px solid red;
+   width: 13%;
+   margin-top: 6px;
+}
+.trusted_by_img{
+   display: flex;
+   gap: 20px;
+   margin-top: 20px;
+}
+
+ .trusted_by_bg_img{
+background: url(./grilled-chicken-wings.avif);
+height: 800px;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 40px;
+}
+  .trusted_by_bg_img_transparent{
+    background-color:transparent;
+    height: 400px;
+   width: 50%;
+   background-repeat: no-repeat;
+   background-size: cover; 
+   margin-left: 300px;
+   margin-top: 40px;
+   
+}   
+ .trusted_by_slider{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: 200px;
+   margin: 50px;
+} 
+ .trusted_slider h1{
+   font-size: 100px;
+   color: #56a425;
+   margin-top: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: -100px;
+} 
+ .trusted_by_slider{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 200px;
+   margin-top: 50px;
+} 
+ .trusted_by_slider h1{
+   font-size: 100px;
+   color: white;
+   margin-top: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 100px;
+} 
+ .trusted_by_slider p{
+   font-size: 40px;
+   color: white;
+   width: 500px;
+   
+   margin-left: 200px;
+} 
+ .text_class{
+   display: flex;
+}
+.slick-prev::before,
+.slick-next::before {
+    color:white;
+    font-size: 2.5rem;
+}
+
+.slick-prev,
+.slick-next {
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 2;
+}
+
+.slick-list {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.slick-prev {
+    left: 200px;
+   
+   
+}
+
+.slick-next {
+    right: 200px;
+    
+   
+} 
+.instagram_div{
+   background-color: burlywood;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px
+   ;
+}
+.instagram_div h1{
+   font-size: 50px;
+   font-weight: 700px;
+   color: chocolate;
+   align-items: center;
+   justify-content: center;
+   
+
+}
+.instagram_div p{
+   font-size: 23px;
+   margin-top: 10px;
+   
+}
+.hr{
+   border:  3px solid #1e00ff;
+   width: 16%;
+   margin-left: 650px;
+
+}
+ .instagram{ 
+display: flex; 
+
+} 
+.h1{
+   text-align: center;
+   justify-content: center;
+}
+.pra{
+text-align: center;
+justify-content: center;
+font-size: 25px;
+}
+/* .subscribe_part .subscribe{
+   background-color: hsla(0, 37%, 51%, 0.305);
+   height: 150px;
+   width: 100%;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 60px;
+   padding: 10px;
+   margin-top: 40px; */
+
+/* }
+.subscribe_part .subscribe input{
+   font-size: 20px;
+}
+ .subscribe{
+
+   align-items: center;
+   justify-content: center;
+} 
+
+.subscribe_part h1{
+   font-size: 60px;
+   margin-left: -200px;
+}
+.subscribe_part p{
+   font-size: 25px;
+   margin-top: 25px; */
+.subscribe .subscribe2 h1{
+   display: flex;
+   align-items: center;
+    gap: 40px; 
+   justify-content: center;
+   background-color: hsl(0, 3%, 94%);
+   height: 50px;
+   margin-top: 25px;
+   
+}
+.subscribe .subscribe2 p{
+   font-size: 20px;
+   color: #252222;
+   gap: 30px;
+   margin-top: 30px;
+}
+.subscribe .subscribe2 input{
+   font-size: 20px;
+   border: 2px solid orange;
+   height: 24px;
+   margin-top: 30px;
+   
+}
+ .subscribe2 {
+   background-color: #e9dbdb;
+   border: 1px solid orange;
+   height: 120px;
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+   gap: 20px;
+   font-size: 30px;
+   
+ }
 
 
+.last .about_us p{
+   width: 270px;
+} 
+.img_flex img{
+   height: 70px;
+   width: 80px;
+}
+.img_flex{
+   display: flex;
+   gap: 10px;
+}
+
+.about_us a{
+   color: black;
+   background-color: orange;
+   border: 2px solid black;
+   box-shadow:  2px 2px rgb(23, 23, 23);
+
+
+}
+.about_us{
+   margin-left: 90px;
+}
+   
+.recent_post{
+  margin-left: 300px;
+}
+
+/* .footer_area{
+   background: url(./pizz.avif);
+   height: 500px;
+   width: 100%;
+   background-size: cover;
+}
+
+.footer_area_transparent{
+   
+   height: 500px;
+   width: 100%;
+   background-size: cover;
+   
+}
+.footer_about{
+   height: 250px;
+   width: 300px;
+   margin-left: 200px;
+   margin-top: 100px;
+
+}
+.footer_discription{
+display: flex;
+gap: 100px;
+}
+.footer_about h1{
+   font-size: 30px;
+   color: yellowgreen;
+}
+.footer_about p{
+   font-size: 35px;
+   color: white;
+   margin-top: 30px;
+   width: 300px;
+
+}
+.footer_about h3{
+   font-size: 20px;
+   color: white;
+   margin-top: 20px;
+/* } */
+/* .recnt_post{
+   margin-top: 100px;
+}
+.recnt_post h1{ */ */
+   /* font-size: 36px;
+   color: cornflowerblue;
+
+}
+.recnt_post_img{
+   display: flex;
+   margin-top: 30px;
+   
+}
+ .recnt_post_img_img{
+   display: flex;
+   height: 50px;
+   width: 50px;
+} 
+.cake{
+   color: white;
+   margin-left: 20px;
+   width: 250px;
+}
+.cake p{
+   font-size: 2opx;
+}
+.cake h3{
+   margin-top: 3opx;
+   color: green;
+} */
+.reach_us{
+   margin-top: 100px;
+   margin-left: 200px;
+
+
+}
+.reach_us h1{
+font-size: 30px;
+color: maroon;
+margin-right: 320px;
+}
+.reach_icon{
+   background-color: cornsilk;
+    border: 5px solid black;
+    box-shadow: 3px 3px gray;
+    height: 50px;
+    width: 300px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    margin-left: 100px;
+    
+}
+.footer_location{
+   display: flex;
+   gap: 20px;
+   width: 400px;
+   margin-top: 40px;
+   margin-left: 100px;
+}
+.footer_location i{
+   font-size: 30px;
+   color: #1e00ff;
+}
+.footer_location span{
+   font-size: 20px;
+   color: #181616;
+   
+}
+.footer_phone{
+   display: flex;
+   gap: 20px;
+   width: 400px;
+   margin-top: 30px;
+   margin-left: 100px;
+}
+/* .footer_phone i{
+   font-size: 30px;
+   color: #161615;
+   margin-left: 100px;
+   
+   
+
+
+} */
+/* .footer_phone span{
+   font-size: 20px;
+   color: rgb(31, 31, 31);
+   margin-right: 100px;
+   
+} */
+.footer_phone i{
+   font-size: 20px;
+   color: #161615;
+   margin-left: 100px;
+   
+}
+ .footer_phone span{ 
+    font-size: 20px;
+   color: rgb(31, 31, 31);
+   margin-left: -240px; 
+   
+   
+
+}
+/* .fa-envelope-o:before {
+   content: "\f003";
+   margin-left: -550px;
+} */ 
+
+
+.footer_lastpart{
+   background-color: black;
+   height: 100px;
+   width: 100%;
+   background-size: cover;
+   margin-top: -30px;
+}
+.footer_lastpart span{
+   font-size: 20px;
+   color: hwb(0 92% 7%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+   flex-direction: column;
+}
+.last{
+   background: url(./cake.avif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 90px;
+   height: 100%;
+   display: flex;
+}
+ .subscribe{
+   height: 100%;
+   width: 100%;
+} 
